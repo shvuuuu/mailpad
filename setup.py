@@ -1,6 +1,4 @@
 from setuptools import setup, find_packages
-import codecs
-import os
 
 VERSION = '0.1.0'
 DESCRIPTION = 'Python Mailing Library'
