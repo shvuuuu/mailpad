@@ -16,7 +16,6 @@ setup(
     long_description_content_type="text/markdown",
     long_description=LONG_DESCRIPTION,
     packages=find_packages(),
-    install_requires=[],#No external dependencies
     keywords=['mailpad','python', 'mail', 'email', 'email client', 'smtp'],
     classifiers=[
         "Development Status :: 1 - Alpha",
