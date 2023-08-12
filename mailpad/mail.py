@@ -70,3 +70,5 @@ class mailpad:
             mailserver.sendmail(from_email, to_email, msg.as_string())
 
             print(f"Mail sent to - {', '.join(to_email)}: Email sent successfully")
+
+__all__ = ['mailpad']
