@@ -16,7 +16,7 @@ setup(
     packages=find_packages(),
     keywords=['mailpad','python', 'mail', 'email', 'email client', 'smtp'],
     classifiers=[
-        "Development Status :: 1 - Alpha",
+        "Development Status :: 3 - Alpha",
         "Intended Audience :: Developers",
         "Programming Language :: Python :: 3",
         "Operating System :: Unix",
