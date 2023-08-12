@@ -43,7 +43,7 @@ class mailpad:
             mailserver.login(self.smtp_email, self.smtp_password)
             mailserver.sendmail(from_email, to_email, msg.as_string())
 
-        print(f"Mail sent to - {', '.join(to_email)}: Email sent successfully")
+        print(f"Mail sent to - {to_email}")
     
     def send_mail_with_attachment(self, from_email, to_email, subject, message, attachment_path):
         if not self.smtp_email or not self.smtp_password:
@@ -69,6 +69,6 @@ class mailpad:
             mailserver.login(self.smtp_email, self.smtp_password)
             mailserver.sendmail(from_email, to_email, msg.as_string())
 
-            print(f"Mail sent to - {', '.join(to_email)}: Email sent successfully")
+            print(f"Mail sent to - {to_email}")
 
 __all__ = ['mailpad']
