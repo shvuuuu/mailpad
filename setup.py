@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = '1.0.1'
+VERSION = '1.0.0'
 DESCRIPTION = 'Python Mailing Library'
 LONG_DESCRIPTION = 'A package that allows to send mails from python environment'
 
