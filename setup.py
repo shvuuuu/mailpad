@@ -1,10 +1,9 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.1.2'
+VERSION = '1.0.0'
 DESCRIPTION = 'Python Mailing Library'
 LONG_DESCRIPTION = 'A package that allows to send mails from python environment'
 
-# Setting up
 setup(
     name="mailpad",
     version=VERSION,
@@ -14,6 +13,7 @@ setup(
     long_description_content_type="text/markdown",
     long_description=LONG_DESCRIPTION,
     packages=find_packages(),
+    install_requires=['langchain'],
     keywords=['mailpad','python', 'mail', 'email', 'email client', 'smtp'],
     classifiers=[
         "Development Status :: 3 - Alpha",
