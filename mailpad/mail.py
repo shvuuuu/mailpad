@@ -5,13 +5,13 @@ from email.mime.text import MIMEText
 from email.mime.application import MIMEApplication
 import os
 
-smtp_email = os.environ.get('MAILPAD_EMAIL')
-smtp_password = os.environ.get('MAILPAD_PASSWORD')
 
 class mailpad:
     def __init__(self, smtp_server=None, smtp_port=None):
         self.smtp_server=smtp_server
         self.smtp_port=smtp_port
+        self.smtp_email = os.environ.get('MAILPAD_EMAIL')
+        self.smtp_password = os.environ.get('MAILPAD_PASSWORD')
         self.context = ssl.create_default_context()
     
     def brevo(self):
@@ -28,7 +28,7 @@ class mailpad:
 
         with smtplib.SMTP(self.smtp_server, self.smtp_port) as mailserver:
             mailserver.starttls(context=self.context)
-            mailserver.login(self.smtp_email, self.smtp_password)
+            mailserver.login(self.smtp_email,self.smtp_password)
             mailserver.sendmail(from_email, to_email, msg.as_string())
 
         print(f"Mail sent to - {to_email}")
@@ -50,7 +50,7 @@ class mailpad:
 
         with smtplib.SMTP(self.smtp_server, self.smtp_port) as mailserver:
             mailserver.starttls(context=self.context)
-            mailserver.login(self.smtp_email, self.smtp_password)
+            mailserver.login(self.smtp_email,self.smtp_password)
             mailserver.sendmail(from_email, to_email, msg.as_string())
 
             print(f"Mail sent to - {to_email}")
