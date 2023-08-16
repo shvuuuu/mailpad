@@ -27,8 +27,8 @@ message = """Message Content"""
 mail.send_mail (from_email, to_email, subject, message)
 ```
 
-Brevo Integration
-Login as - https://www.brevo.com/
+## Brevo Integration
+Create account at: https://www.brevo.com/
 
 ```python
 from mailpad import mailpad
