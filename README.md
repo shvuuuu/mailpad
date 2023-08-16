@@ -77,7 +77,7 @@ import openai
 os.environ["OPENAI_API_KEY"]="YOUR_OPENAI_KEY"
 
 mail = mailpadAI()
-mail.openai()
+mail.openai(temperature,model)
 
 form_input = "EMAIL_MESSAGE/EMAIL_CONTEXT"
 email_sender = "SENDER_NAME"
