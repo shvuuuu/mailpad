@@ -89,9 +89,9 @@ print(response)
 ```
 
 ## Features
--Send plain text emails or emails with attachments.
--Brevo Integration
--Supports OpenAI's language models.
+* Send plain text emails or emails with attachments
+* Brevo Integration
+* Supports OpenAI's language models
 
 ## Contributing
 Contributions are welcome! If you have suggestions, bug reports, or would like to add new features, feel free to create issues or pull requests on the GitHub repository.
