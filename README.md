@@ -4,7 +4,7 @@ MailPad is a Python library that simplifies email sending and integrates with la
 
 ## Installation
 
-You can install MailPad using pip:
+MailPad can be installed using pip:
 
 ```python
 pip install mailpad
@@ -87,3 +87,14 @@ email_style = "EMAIL_STYLE"
 response = mail.get_llm_response(form_input, email_sender, email_recipient, email_style)
 print(response)
 ```
+
+## Features
+-Send plain text emails or emails with attachments.
+-Brevo Integration
+-Supports OpenAI's language models.
+
+## Contributing
+Contributions are welcome! If you have suggestions, bug reports, or would like to add new features, feel free to create issues or pull requests on the GitHub repository.
+
+## License
+This project is licensed under the MIT License.
