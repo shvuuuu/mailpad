@@ -8,14 +8,11 @@
   <p align="center">
     MailPad is a Python library that simplifies email sending and integrates with language models for generating email content. Utilizing OpenAI's language models to generate text emails.
     <br />
-    <a href="https://umbrel.com"><strong>umbrel.com (we're hiring) »</strong></a>
-    <br />
-    <br />
     <a href="https://twitter.com/shvuuuu">
       <img src="https://img.shields.io/twitter/follow/shvuuuu?style=social" />
     </a>
     <a href="https://pypi.org/project/mailpad/">
-      <img src="https://img.shields.io/badge/pypi-3775A9?style=social">
+      <img src="https://img.shields.io/badge/pypi-3775A9?style=for-the-badge&logo=pypi&logoColor=white">
     </a>
     <a href="https://reddit.com/r/getumbrel">
       <img src="https://img.shields.io/linkedin/shvuuuu?style=social">
