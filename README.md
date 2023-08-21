@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://mailpad.tech/">
-    <img width="150" height="150" src="[https://i.imgur.com/LI59cui.png](https://mailpad.tech/wp-content/uploads/2023/08/cropped-mailpad-site-logo.png)" alt="Mailpad Tech" width="200" />
+    <img width="150" height="150" src="https://i.imgur.com/LI59cui.png](https://mailpad.tech/wp-content/uploads/2023/08/cropped-mailpad-site-logo.png" alt="Mailpad Tech" style="border-radius: 50%; />
   </a>
 </p>
 <p align="center">
