@@ -1,21 +1,25 @@
 <p align="center">
   <a href="https://mailpad.tech/">
-    <img width="150" height="150" src="https://mailpad.tech/wp-content/uploads/2023/08/cropped-mailpad-site-logo.png" alt="Mailpad Tech" style="border-radius: 50%; />
+    <img width="150" height="150" src="https://mailpad.tech/wp-content/uploads/2023/08/cropped-mailpad-site-logo.png" alt="Mailpad Tech" style="border-radius: 30%;>
   </a>
 </p>
 <p align="center">
   <h1 align="center">MailPad Python Library</h1>
   <p align="center">
     MailPad is a Python library that simplifies email sending and integrates with language models for generating email content. Utilizing OpenAI's language models to generate text emails.
-    <br />
+    <br/>
+    <br/>
     <a href="https://twitter.com/shvuuuu">
-      <img src="https://img.shields.io/twitter/follow/shvuuuu?style=social" />
+      <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white">
     </a>
     <a href="https://pypi.org/project/mailpad/">
       <img src="https://img.shields.io/badge/pypi-3775A9?style=for-the-badge&logo=pypi&logoColor=white">
     </a>
-    <a href="https://reddit.com/r/getumbrel">
-      <img src="https://img.shields.io/linkedin/shvuuuu?style=social">
+    <a href="https://www.linkedin.com/in/shvuuuu/">
+      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
+    </a>
+    <a href="https://mailpad.tech">
+      <img src="https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white">
     </a>
   </p>
 </p>
